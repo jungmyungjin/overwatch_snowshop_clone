@@ -1,0 +1,38 @@
+header {
+  background-color: rgb(19, 19, 19);
+  color: rgba(245, 245, 245, 0.808);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 2.2rem;
+  font-size: 0.9rem;
+}
+.header__menus,
+.header__profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.header__menus > .home {
+  background-image: url(../img/blizzard_main_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4rem;
+  height: 2rem;
+}
+
+.header__menu > span {
+  cursor: pointer;
+}
+.header__menu,
+.header__profile > div {
+  margin-right: 1.2rem;
+}
+
+.more {
+  color: rgba(245, 245, 245, 0.24);
+}
