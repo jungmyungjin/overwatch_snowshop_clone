@@ -14,7 +14,6 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 1.5rem;
 }
 
 .header__menus > .home {
@@ -28,9 +27,16 @@ header {
 .header__menu > span {
   cursor: pointer;
 }
+
+.header__menus {
+  margin-left: 1rem;
+}
+.header__profile {
+  margin-right: 2.5rem;
+}
 .header__menu,
 .header__profile > div {
-  margin-right: 1.2rem;
+  margin-left: 1.6rem;
 }
 
 .more {
