@@ -1,4 +1,5 @@
-@import url("header.css");
+@import url("navBar.css");
+@import url("main-header.css");
 body {
   margin: 0px;
   padding: 0px;

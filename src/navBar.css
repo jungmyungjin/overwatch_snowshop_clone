@@ -1,4 +1,4 @@
-header {
+navBar {
   background-color: rgb(19, 19, 19);
   color: rgba(245, 245, 245, 0.808);
   display: flex;
@@ -9,14 +9,14 @@ header {
   height: 2.2rem;
   font-size: 0.9rem;
 }
-.header__menus,
-.header__profile {
+.navBar__menus,
+.navBar__profile {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.header__menus > .home {
+.navBar__menus > .home {
   background-image: url(../img/blizzard_main_logo.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -24,18 +24,18 @@ header {
   height: 2rem;
 }
 
-.header__menu > span {
+.navBar__menu > span {
   cursor: pointer;
 }
 
-.header__menus {
+.navBar__menus {
   margin-left: 1rem;
 }
-.header__profile {
+.navBar__profile {
   margin-right: 2.5rem;
 }
-.header__menu,
-.header__profile > div {
+.navBar__menu,
+.navBar__profile > div {
   margin-left: 1.6rem;
 }
 
