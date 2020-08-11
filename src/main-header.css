@@ -1,0 +1,112 @@
+.mainHeader {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 33rem;
+  background-color: blue;
+  background-size: cover;
+}
+.mainHeader__bg {
+  width: 100%;
+  height: 27rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+  background-image: url(../img/main-header-bg.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.mainHeader__bg__title {
+  width: 69rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+.mainHeader__bg__title > w.maintitle {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  display: block;
+  color: white;
+}
+.mainHeader__bg__title > .subtitle {
+  font-size: 1.2rem;
+  display: block;
+  color: white;
+}
+.mainHeader__banner {
+  z-index: 1;
+  position: absolute;
+  top: 403px;
+  height: 10rem;
+  width: 69rem;
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+}
+.mainHeader__banner > .banner {
+  width: 49rem;
+  top: 0rem;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.banner > div {
+  background-color: palegreen;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.mainHeader__banner > .account {
+  background-color: hotpink;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.account > .account__totalSnow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  color: orange;
+  font-weight: 600;
+}
+.account__totalSnow > .snowflake {
+  font-size: 3rem;
+  margin-right: 0.5rem;
+}
+.account__totalSnow > .unit {
+  font-size: 1.2rem;
+}
+.account > .account__snowInfo {
+  display: flex;
+  flex-direction: row;
+  width: 19rem;
+  height: 3rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: skyblue;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(152, 225, 242, 0.2);
+}
+.account > .account__snowInfo > div {
+  padding: 0rem 1rem;
+}
+.mainHeader__snowBar {
+  position: absolute;
+  top: 451px;
+  background-color: red;
+  height: 7rem;
+}
+.mainHeader__snowBar > video {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.8);
+}
